@@ -131,6 +131,10 @@
 
     let arr = [10 , 20 , 30]
 
-    arr.forEach((item ,  index , arr ) => {
+    let value = arr.forEach((item ,  index , arr ) => {
         console.log(item , index , arr);
+        return item;
     });
+    console.log(value);
+    // undefined
+    // because forEach doesn't retune anything
