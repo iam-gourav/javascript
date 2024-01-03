@@ -129,12 +129,43 @@
     // not work on map 
 
 
-    let arr = [10 , 20 , 30]
+    // let arr = [10 , 20 , 30]
 
-    let value = arr.forEach((item ,  index , arr ) => {
-        console.log(item , index , arr);
-        return item;
-    });
-    console.log(value);
+    // let value = arr.forEach((item ,  index , arr ) => {
+    //     console.log(item , index , arr);
+    //     return item;
+    // });
+    // console.log(value);
     // undefined
     // because forEach doesn't retune anything
+
+
+//**************************important****************************** */
+    // but how we access return value from forEach 
+
+const numArr = [10 , 20 , 30 , 40 , 50]
+    let newNumArr = []
+
+    // numArr.forEach((item)=>{
+    //     if(item>20){
+    //         newNumArr.push(item)
+    //     }
+     
+    // })
+    // console.log(newNumArr);
+// [ 30, 40, 50 ]
+
+
+//*******************filter********************/
+
+// filter gives return value so use filter instead of forEach
+
+
+let values = numArr.filter((item)=>{
+    return item>30
+})
+console.log(values);
+
+
+
+
