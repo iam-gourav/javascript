@@ -81,7 +81,7 @@
 //         console.log(username + website);
 //     }
     // console.log(website);
-    // website is nnot defined
+    // website is not defined
     // can't access website outside
 // }
 // console.log(username);
@@ -90,6 +90,7 @@
 
 
     // console.log(addone(8))
+    //8
     // this function can be call here
     // function addone(num){
     //     return num+1;
