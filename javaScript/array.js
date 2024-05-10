@@ -69,8 +69,8 @@ let alphaArr = ['a' , 'b' , 'c', ['d' , 'e'] , 'f' , ['g' , 'h' , ['i' , 'j']]]
 let realArr = alphaArr.flat(Infinity)
 console.log(realArr);
 //flat(depthvalue)
-// if depth value 1 it flats dirct child array 
-// if depth value 2 it flats dirct child array and also grand child array 
+// if depth value 1 it flats direct child array 
+// if depth value 2 it flats direct child array and also grand child array 
 // if depth value infinity flats all inner arrays elements
 
 

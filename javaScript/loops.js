@@ -1,14 +1,14 @@
 //****************for loop************************/
 
-// for (let i = 1; i <=10; i++) {
-//     const element = i;
-//     if(i==5){
-//         console.log("detected 5");
-//         break;
-//     }
-//     console.log(element)
+for (let i = 1; i <=10; i++) {
+    const element = i;
+    if(i==5){
+        console.log("detected 5");
+        break;
+    }
+    console.log(element)
     
-// }
+}
 
 // console.log(element);
 // not accessible outside the loop because of scope
