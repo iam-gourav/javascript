@@ -34,7 +34,7 @@
 //                    we wrap all the methods in a class we also decide which method is accessable
 //                    or not
 
-// Inheritance :-
+// Inheritance :- 
 
 // Polymorphism :- poly means many morphism means form
 //                 ex:- create a class having method makeSound() and it used by dog and cat
